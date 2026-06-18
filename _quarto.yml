@@ -1,0 +1,48 @@
+##
+# Defines site data and metadata
+#
+# Author: Matt Turner <matt@mat.phd>
+# Date: 15 June 2026
+#
+
+
+website:
+
+  title: "SubtleTea Solutions"
+
+  navbar:
+    logo: "images/circle-logo-teacup-nowordmark.png"
+    background: "#F1F1F1"
+    foreground: "#010101"
+    # left:
+    #   - href: index.qmd
+    #     text: "Home"
+      # - href: about.qmd
+      #   text: "More About Jill"
+
+  favicon: favicon.png
+
+  search: false
+
+  open-graph:
+    image: images/circle-logo-teacup-nowordmark.png
+  twitter-card:
+    image: images/circle-logo-teacup-nowordmark.png
+    card-style: summary_large_image
+
+format:
+
+  html:
+
+    search: false
+    theme:
+      - cosmo
+      - brand
+      - styles.scss
+
+    # css: styles.scss
+    toc: false
+
+
+project:
+  type: website
